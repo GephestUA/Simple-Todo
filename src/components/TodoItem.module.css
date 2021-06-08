@@ -1,0 +1,28 @@
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.todoItem input {
+  margin-right: 1rem;
+}
+
+.todoItem strong {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.todoItem button {
+  background-color: green;
+  font-size: 25px;
+  border-radius: 25%;
+}
+
+.done {
+  text-decoration: line-through;
+}
